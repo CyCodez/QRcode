@@ -1,10 +1,16 @@
 html,
 body {
-  background-color: #d9d9d6;
+  background-color: hsl(212, 45%, 89%);
   margin: -85px auto;
   padding: 0;
   width: 100%;
   overflow-x: hidden; /* This hides horizontal scroll bars */
+  font-family: "Outfit", sans-serif;
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700; /* Bold weight */
 }
 
 .container {
@@ -14,50 +20,49 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  background-color: white;
-  width: 220px;
-  height: 400px;
-}
-.outerdiv {
-  margin: 300px auto;
-  display: flex;
-  border-radius: 8px;
-  justify-content: center;
-  align-items: center;
-  background-color: #b7c9e2;
-  width: 1450px;
-  height: 500px;
+  background-color: hsl(0, 0%, 100%);
+  width: 290px;
+  height: 450px;
 }
 .text {
   text-align: center;
-  margin-top: 210px;
+  margin-top: 275px;
   margin-left: 16px;
   margin-right: 16px;
+  font-size: 15px;
 }
 .text b {
-  font-weight: bolder;
+  font-weight: 1000px;
   color: black;
-  font-size: 16px;
+  font-size: large;
 }
 .container img {
   position: absolute;
   border-radius: 8px;
-  top: 28%;
+  top: 33%;
   margin: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
-  height: 50%;
+  height: 60%;
 }
-@media (max-width: 600px) {
+
+/* ****************************************************
+for mobile screen */
+
+@media (max-width: 375px) {
   html,
   body {
-    margin: -120px auto;
+    margin: 50px auto;
     padding: 0;
     width: 100%;
     overflow-x: hidden; /* This hides horizontal scroll bars */
+    font-family: "Outfit", sans-serif;
   }
-
+  h2 {
+    font-weight: 400; /* Bold weight */
+    font-family: "Outfit", sans-serif;
+  }
   .container {
     margin: 20px auto;
     display: flex;
@@ -66,17 +71,8 @@ body {
     align-items: center;
     position: relative;
     background-color: white;
-    width: 220px;
-    height: 400px;
-  }
-  .outerdiv {
-    margin: 300px auto;
-    display: flex;
-    border-radius: 8px;
-    justify-content: center;
-    align-items: center;
-    background-color: #b7c9e2;
     width: 250px;
-    height: 500px;
+    height: 420px;
   }
 }
+/* ********************************************************/
