@@ -54,7 +54,7 @@ for mobile screen */
   html,
   body {
     background-color: hsl(212, 45%, 89%);
-    margin: 30px auto;
+    margin: 10px auto;
     padding: 0;
     width: 100%;
     overflow-x: hidden; /* This hides horizontal scroll bars */
